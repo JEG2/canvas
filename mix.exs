@@ -7,7 +7,9 @@ defmodule Canvas.Mixfile do
      elixir: "~> 1.2",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     deps: deps]
+     deps: deps,
+     package: package,
+     description: description]
   end
 
   # Configuration for the OTP application
@@ -28,5 +30,17 @@ defmodule Canvas.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:wx_utils, "~> 0.0.2"}]
+  end
+
+  defp package do
+    %{ licenses: ["MIT"],
+       maintainers: ["James Edward Gray II"],
+       links: %{"GitHub" => "https://github.com/JEG2/canvas"} }
+  end
+
+  defp description do
+    """
+    A library for building simple GUI canvas to draw on.
+    """
   end
 end
