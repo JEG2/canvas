@@ -1,6 +1,6 @@
 # Canvas
 
-**TODO: Add description**
+A library for building simple GUI canvas to draw on.
 
 ## Installation
 
