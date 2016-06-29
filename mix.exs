@@ -40,7 +40,7 @@ defmodule Canvas.Mixfile do
 
   defp description do
     """
-    A library for building simple GUI canvas to draw on.
+    A library for building simple GUI canvases to draw on.
     """
   end
 end

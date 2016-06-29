@@ -1,6 +1,6 @@
 # Canvas
 
-A library for building simple GUI canvas to draw on.
+A library for building simple GUI canvases to draw on.
 
 ## Installation
 
